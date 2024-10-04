@@ -18,6 +18,8 @@ kotlin {
     watchosX64()
     watchosArm64()
     watchosSimulatorArm64()
+    watchosDeviceArm64()
+    watchosArm32()
 
     cocoapods {
         summary = "Kotlin CocoaPods library"
